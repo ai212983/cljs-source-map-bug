@@ -1,0 +1,5 @@
+{:main          hello-world.core
+ :optimizations :advanced
+ :output-dir    "out/hello"
+ :output-to     "out/hello.js"
+ :source-map    "out/hello.js.map"}
