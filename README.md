@@ -21,8 +21,7 @@ not to compiled javascript file.
 source map to the file [and passing](https://github.com/clojure/clojurescript/blob/master/src/main/clojure/cljs/closure.clj#L1408)
 the same file to `cljs.source-map/encode` as `file` parameter. 
 
-This parameter, though  
-[is used](https://github.com/clojure/clojurescript/blob/master/src/main/cljs/cljs/source_map.cljs#L236) 
+This parameter, though, [is used](https://github.com/clojure/clojurescript/blob/master/src/main/cljs/cljs/source_map.cljs#L236) 
 as a file name source map is pointing to.
 
 Thus, source map is pointing to itself, not to javascript file.
