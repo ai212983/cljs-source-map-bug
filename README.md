@@ -11,7 +11,7 @@ not to compiled javascript file.
 
 1. Clone the repo
 2. Compile `clj --main cljs.main -co main.cljs.edn -c`
-3. Open `out/hello/hello.js.map` file
+3. Open `out/hello.js.map` file
 4. `file` key of js map is pointing not to js file, but to map itself
 
 
